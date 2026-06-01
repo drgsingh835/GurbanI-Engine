@@ -5,7 +5,11 @@
 .env_backup
 *.env*
 .env.*
-**/config/youtube/
+!*.env.example
+!**/*.env.example
+**/config/youtube/*
+!**/config/youtube/README.md
+
 
 
 # Python caches and compiled files
