@@ -1,0 +1,76 @@
+{
+  "project": "Pain is the Medicine",
+  "aspect_ratio": "9:16",
+  "shots": [
+    {
+      "shot_number": 1,
+      "type": "AI",
+      "prompt": "Cinematic photograph of a lone human silhouette sitting in a massive, ancient, cold stone library. Towering monolithic walls stretching high. A single, dim, volumetric beam of golden light (#D4AF37) illuminating dust motes around the figure. Deep cosmic indigo (#0B0E14) shadows. High-contrast chiaroscuro, 35mm film grain, editorial photography, Ansel Adams-inspired dark shadows.",
+      "negative_prompt": "neon, modern, flat lighting, digital illustration, bright colors, drawing, painting",
+      "model": "flux-dev",
+      "filename": "shot-01.png"
+    },
+    {
+      "shot_number": 2,
+      "type": "AI",
+      "prompt": "Cinematic close-up photograph of a giant, ancient stone wall cracking open. A sudden surge of blinding, warm, glowing golden light (#D4AF37) and crimson energy (#8B1E0F) bursts out through the fissure. Dust particles floating in the air. 35mm film grain, volumetric rays, high contrast, dramatic shadows, editorial photography.",
+      "negative_prompt": "neon, modern elements, plastics, rendering, cartoon, flat lighting",
+      "model": "flux-dev",
+      "filename": "shot-02.png"
+    },
+    {
+      "shot_number": 3,
+      "type": "TEXT",
+      "text_content": "Let that sink in.",
+      "prompt": "Montserrat typography, centered, warm white on solid dark cosmic indigo (#0B0E14) background.",
+      "filename": "shot-03.png"
+    },
+    {
+      "shot_number": 4,
+      "type": "AI",
+      "prompt": "Cinematic macro photograph of a human eye, details of the iris reflecting a vast, shimmering golden cosmos (#D4AF37) filled with stars. Soft dawn crimson (#8B1E0F) hues. Shallow depth of field, sharp focus on the iris texture, soft skin details, warm film grain, volumetric lighting.",
+      "negative_prompt": "lens flare, double iris, neon colors, CGI, 3d render, illustration",
+      "model": "flux-dev",
+      "filename": "shot-04.png"
+    },
+    {
+      "shot_number": 5,
+      "type": "AI",
+      "prompt": "Cinematic wide photograph of a small wooden boat tossed on a stormy, dark indigo (#0B0E14) ocean. Massive waves crashing. A thick sky filled with heavy clouds in dawn crimson (#8B1E0F) and mist gray (#7E8C99). In the distant background, a warm golden (#D4AF37) lighthouse glow shines through the storm. Meditative atmosphere, 35mm film grain, high-contrast, dramatic lighting.",
+      "negative_prompt": "modern boat, yacht, neon colors, digital painting, render",
+      "model": "flux-dev",
+      "filename": "shot-05.png"
+    },
+    {
+      "shot_number": 6,
+      "type": "AI",
+      "prompt": "Cinematic macro photograph of open human hands slowly releasing dry, fine sand, letting it stream downwards. The falling sand grains are sharply illuminated by a warm morning sun, glowing like golden dust particles (#D4AF37). Shallow depth of field, background is soft dark indigo (#0B0E14), cinematic 35mm film grain, high detail.",
+      "negative_prompt": "modern accessories, rings, neon, digital painting, CGI, illustration",
+      "model": "flux-dev",
+      "filename": "shot-06.png"
+    },
+    {
+      "shot_number": 7,
+      "type": "AI",
+      "prompt": "Cinematic symmetric landscape photograph of a vast mountain valley at dawn. Sunrise glowing behind majestic peaks. Mist gray (#7E8C99) valleys filled with low fog, illuminated by warm golden (#D4AF37) rays. Perfect balance and order, quiet stillness, high-contrast Ansel Adams style, 35mm film grain.",
+      "negative_prompt": "houses, roads, telephone poles, neon, vibrant blue sky",
+      "model": "flux-dev",
+      "filename": "shot-07.png"
+    },
+    {
+      "shot_number": 8,
+      "type": "AI",
+      "prompt": "Cinematic wide photograph of a lone silhouette standing at the edge of a high mountain cliff. Looking out at an endless, deep starry cosmos filled with nebulae and stardust, blending into a misty valley below. A subtle, warm golden aura (#D4AF37) outlines the figure. Ethereal, transcendent, 35mm film grain, volumetric light.",
+      "negative_prompt": "city lights, buildings, modern clothing, neon, bright colors, illustration",
+      "model": "flux-dev",
+      "filename": "shot-08.png"
+    },
+    {
+      "shot_number": 9,
+      "type": "TEXT",
+      "text_content": "Comment SHABAD",
+      "prompt": "Elegant typography, warm white text on #0B0E14 background, framed by a thin gold (#D4AF37) border.",
+      "filename": "shot-09.png"
+    }
+  ]
+}

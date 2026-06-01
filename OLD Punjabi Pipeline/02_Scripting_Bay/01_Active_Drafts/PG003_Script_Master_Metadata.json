@@ -1,0 +1,1018 @@
+{
+  "ਅਚੳਦੲਮਚਿ": {
+    "normalized": "ਅਚੳਦੲਮਚਿ",
+    "legacy_ascii": "Academic"
+  },
+  "ਅਤੇ": {
+    "normalized": "ਅਤੇ",
+    "legacy_ascii": "Aqy"
+  },
+  "ਅਨਚਇਨਟ": {
+    "normalized": "ਅਨਚਇਨਟ",
+    "legacy_ascii": "Ancient"
+  },
+  "ਅੁਦਿੋ": {
+    "normalized": "ਅੁਦਿੋ",
+    "legacy_ascii": "Auido"
+  },
+  "ਅੰਗਰੇਜ਼ੀ": {
+    "normalized": "ਅੰਗਰੇਜ਼ੀ",
+    "legacy_ascii": "AMgryzI"
+  },
+  "ਅੰਮੀ": {
+    "normalized": "ਅੰਮੀ",
+    "legacy_ascii": "AMmI"
+  },
+  "ਅੱਬਾ": {
+    "normalized": "ਅੱਬਾ",
+    "legacy_ascii": "A`bw"
+  },
+  "ਆਤਮਾ": {
+    "normalized": "ਆਤਮਾ",
+    "legacy_ascii": "Awqmw"
+  },
+  "ਆਪ": {
+    "normalized": "ਆਪ",
+    "legacy_ascii": "Awp"
+  },
+  "ਆਪਣੇ": {
+    "normalized": "ਆਪਣੇ",
+    "legacy_ascii": "Awpxy"
+  },
+  "ਆਸ਼ਿਕ": {
+    "normalized": "ਆਸ਼ਿਕ",
+    "legacy_ascii": "AwiSk"
+  },
+  "ਆਸ": {
+    "normalized": "ਆਸ",
+    "legacy_ascii": "Aws"
+  },
+  "ਉਧਾਰੇ": {
+    "normalized": "ਉਧਾਰੇ",
+    "legacy_ascii": "auDwry"
+  },
+  "ਉਹ": {
+    "normalized": "ਉਹ",
+    "legacy_ascii": "auh"
+  },
+  "ਉੱਠੇ": {
+    "normalized": "ਉੱਠੇ",
+    "legacy_ascii": "au~Ty"
+  },
+  "ਉੱਪਰ": {
+    "normalized": "ਉੱਪਰ",
+    "legacy_ascii": "au~pr"
+  },
+  "ਓਚੋਨੋਮਚਿ": {
+    "normalized": "ਓਚੋਨੋਮਚਿ",
+    "legacy_ascii": "Economic"
+  },
+  "ਕਰ": {
+    "normalized": "ਕਰ",
+    "legacy_ascii": "kr"
+  },
+  "ਕਾਨੂੰਨ": {
+    "normalized": "ਕਾਨੂੰਨ",
+    "legacy_ascii": "kwƒn"
+  },
+  "ਕਿਰਨ": {
+    "normalized": "ਕਿਰਨ",
+    "legacy_ascii": "ikrn"
+  },
+  "ਕੀ": {
+    "normalized": "ਕੀ",
+    "legacy_ascii": "kI"
+  },
+  "ਕੱਟੀਆਂ": {
+    "normalized": "ਕੱਟੀਆਂ",
+    "legacy_ascii": "k`tIAW"
+  },
+  "ਖਨਿਸਹਪਿ": {
+    "normalized": "ਖਨਿਸਹਪਿ",
+    "legacy_ascii": "Kinship"
+  },
+  "ਗਰੳਮਮੳਰ": {
+    "normalized": "ਗਰੳਮਮੳਰ",
+    "legacy_ascii": "grammar"
+  },
+  "ਗੁਫ਼ਤਾਰ": {
+    "normalized": "ਗੁਫ਼ਤਾਰ",
+    "legacy_ascii": "gu&qwr"
+  },
+  "ਘਰੳਨਿ": {
+    "normalized": "ਘਰੳਨਿ",
+    "legacy_ascii": "Grain"
+  },
+  "ਘੋਲਦ": {
+    "normalized": "ਘੋਲਦ",
+    "legacy_ascii": "Gold"
+  },
+  "ਙ": {
+    "normalized": "ਙ",
+    "legacy_ascii": "|"
+  },
+  "ਚਾਚਾ": {
+    "normalized": "ਚਾਚਾ",
+    "legacy_ascii": "cwcw"
+  },
+  "ਚਾਹੁੰਦੇ": {
+    "normalized": "ਚਾਹੁੰਦੇ",
+    "legacy_ascii": "cwhuMdy"
+  },
+  "ਛਰਸਿਸਿ": {
+    "normalized": "ਛਰਸਿਸਿ",
+    "legacy_ascii": "Crisis"
+  },
+  "ਛਹੳਰਚੋੳਲ": {
+    "normalized": "ਛਹੳਰਚੋੳਲ",
+    "legacy_ascii": "Charcoal"
+  },
+  "ਛੁਟ": {
+    "normalized": "ਛੁਟ",
+    "legacy_ascii": "Cut"
+  },
+  "ਛੋਨਟਰੳਚਟ": {
+    "normalized": "ਛੋਨਟਰੳਚਟ",
+    "legacy_ascii": "Contract"
+  },
+  "ਛੳਪਟੁਰੲ": {
+    "normalized": "ਛੳਪਟੁਰੲ",
+    "legacy_ascii": "Capture"
+  },
+  "ਛੳਰਦ": {
+    "normalized": "ਛੳਰਦ",
+    "legacy_ascii": "Card"
+  },
+  "ਛੳਰਦਸਞਫਘ": {
+    "normalized": "ਛੳਰਦਸਞਫਘ",
+    "legacy_ascii": "Cards\\PG"
+  },
+  "ਜਹਾਜ਼": {
+    "normalized": "ਜਹਾਜ਼",
+    "legacy_ascii": "jhwz"
+  },
+  "ਜਿਉਂਦੇ": {
+    "normalized": "ਜਿਉਂਦੇ",
+    "legacy_ascii": "ijauNdy"
+  },
+  "ਜੀਵਨ": {
+    "normalized": "ਜੀਵਨ",
+    "legacy_ascii": "jIvn"
+  },
+  "ਜੀਵੰਤ": {
+    "normalized": "ਜੀਵੰਤ",
+    "legacy_ascii": "jIvMq"
+  },
+  "ਜੜ੍ਹਾਂ": {
+    "normalized": "ਜੜ੍ਹਾਂ",
+    "legacy_ascii": "jVHW"
+  },
+  "ਝੜ": {
+    "normalized": "ਝੜ",
+    "legacy_ascii": "JV"
+  },
+  "ਞਫੁਨਜੳਬ": {
+    "normalized": "ਞਫੁਨਜੳਬ",
+    "legacy_ascii": "\\Punjab"
+  },
+  "ਟਰੲੲ": {
+    "normalized": "ਟਰੲੲ",
+    "legacy_ascii": "tree"
+  },
+  "ਟਹੲ": {
+    "normalized": "ਟਹੲ",
+    "legacy_ascii": "the"
+  },
+  "ਟਿਸੲਲਡ": {
+    "normalized": "ਟਿਸੲਲਡ",
+    "legacy_ascii": "itself"
+  },
+  "ਟੁੱਟਣਾ": {
+    "normalized": "ਟੁੱਟਣਾ",
+    "legacy_ascii": "tu`txw"
+  },
+  "ਟ੍ਰੀ": {
+    "normalized": "ਟ੍ਰੀ",
+    "legacy_ascii": "tRI"
+  },
+  "ਟੲਣਟੁਰੲ": {
+    "normalized": "ਟੲਣਟੁਰੲ",
+    "legacy_ascii": "texture"
+  },
+  "ਠਟਿਲੲ": {
+    "normalized": "ਠਟਿਲੲ",
+    "legacy_ascii": "Title"
+  },
+  "ਠਮਿੲ": {
+    "normalized": "ਠਮਿੲ",
+    "legacy_ascii": "Time"
+  },
+  "ਠਰੲੲ": {
+    "normalized": "ਠਰੲੲ",
+    "legacy_ascii": "Tree"
+  },
+  "ਠਹੲ": {
+    "normalized": "ਠਹੲ",
+    "legacy_ascii": "The"
+  },
+  "ਠੁਰਨਨਿਗ": {
+    "normalized": "ਠੁਰਨਨਿਗ",
+    "legacy_ascii": "Turning"
+  },
+  "ਠੇਪੋਗਰੳਪਹੇ": {
+    "normalized": "ਠੇਪੋਗਰੳਪਹੇ",
+    "legacy_ascii": "Typography"
+  },
+  "ਡੁੱਬ": {
+    "normalized": "ਡੁੱਬ",
+    "legacy_ascii": "fu`b"
+  },
+  "ਡੋਰਚੲਸ": {
+    "normalized": "ਡੋਰਚੲਸ",
+    "legacy_ascii": "forces"
+  },
+  "ਡੳਲਲਨਿਗ": {
+    "normalized": "ਡੳਲਲਨਿਗ",
+    "legacy_ascii": "falling"
+  },
+  "ਢਨਿੳਲ": {
+    "normalized": "ਢਨਿੳਲ",
+    "legacy_ascii": "Final"
+  },
+  "ਢਨਿੳਲਜ਼ਿੲਦ": {
+    "normalized": "ਢਨਿੳਲਜ਼ਿੲਦ",
+    "legacy_ascii": "Finalized"
+  },
+  "ਢਲਿੲ": {
+    "normalized": "ਢਲਿੲ",
+    "legacy_ascii": "File"
+  },
+  "ਢਲੳਸਹਚੳਰਦਸ": {
+    "normalized": "ਢਲੳਸਹਚੳਰਦਸ",
+    "legacy_ascii": "Flashcards"
+  },
+  "ਢਾਂਚੇ": {
+    "normalized": "ਢਾਂਚੇ",
+    "legacy_ascii": "FWcy"
+  },
+  "ਢੁਨਚਟਿੋਨੳਲ": {
+    "normalized": "ਢੁਨਚਟਿੋਨੳਲ",
+    "legacy_ascii": "Funcitonal"
+  },
+  "ਢੁਲਲ": {
+    "normalized": "ਢੁਲਲ",
+    "legacy_ascii": "Full"
+  },
+  "ਢੋਲਦੲਰ": {
+    "normalized": "ਢੋਲਦੲਰ",
+    "legacy_ascii": "Folder"
+  },
+  "ਤਾਇਆ": {
+    "normalized": "ਤਾਇਆ",
+    "legacy_ascii": "qwieAw"
+  },
+  "ਤੇ": {
+    "normalized": "ਤੇ",
+    "legacy_ascii": "qy"
+  },
+  "ਦਾ": {
+    "normalized": "ਦਾ",
+    "legacy_ascii": "dw"
+  },
+  "ਦਾਣੇ": {
+    "normalized": "ਦਾਣੇ",
+    "legacy_ascii": "dwxy"
+  },
+  "ਦੀ": {
+    "normalized": "ਦੀ",
+    "legacy_ascii": "dI"
+  },
+  "ਦੇ": {
+    "normalized": "ਦੇ",
+    "legacy_ascii": "dy"
+  },
+  "ਦੲਪੲਨਦੲਨਚੲ": {
+    "normalized": "ਦੲਪੲਨਦੲਨਚੲ",
+    "legacy_ascii": "dependence"
+  },
+  "ਧਂਅ": {
+    "normalized": "ਧਂਅ",
+    "legacy_ascii": "DˆA"
+  },
+  "ਧਰਿੲਚਟਵਿੲ": {
+    "normalized": "ਧਰਿੲਚਟਵਿੲ",
+    "legacy_ascii": "Directive"
+  },
+  "ਧਰੲੳਮਸ": {
+    "normalized": "ਧਰੲੳਮਸ",
+    "legacy_ascii": "Dreams"
+  },
+  "ਧਰੳਡਟਨਿਗ": {
+    "normalized": "ਧਰੳਡਟਨਿਗ",
+    "legacy_ascii": "Drafting"
+  },
+  "ਧੲਚੳੇ": {
+    "normalized": "ਧੲਚੳੇ",
+    "legacy_ascii": "Decay"
+  },
+  "ਧੲੳਟਹ": {
+    "normalized": "ਧੲੳਟਹ",
+    "legacy_ascii": "Death"
+  },
+  "ਧੳਰਕ": {
+    "normalized": "ਧੳਰਕ",
+    "legacy_ascii": "Dark"
+  },
+  "ਨਹੀਂ": {
+    "normalized": "ਨਹੀਂ",
+    "legacy_ascii": "nhIN"
+  },
+  "ਨਾਬਰ": {
+    "normalized": "ਨਾਬਰ",
+    "legacy_ascii": "nwbr"
+  },
+  "ਨੁੳਨਚੲ": {
+    "normalized": "ਨੁੳਨਚੲ",
+    "legacy_ascii": "nuance"
+  },
+  "ਨੇ": {
+    "normalized": "ਨੇ",
+    "legacy_ascii": "ny"
+  },
+  "ਪਾਪਾ": {
+    "normalized": "ਪਾਪਾ",
+    "legacy_ascii": "pwpw"
+  },
+  "ਪੰਜਾਬੀ": {
+    "normalized": "ਪੰਜਾਬੀ",
+    "legacy_ascii": "pMjwbI"
+  },
+  "ਪੳਰਚਹਮੲਨਟ": {
+    "normalized": "ਪੳਰਚਹਮੲਨਟ",
+    "legacy_ascii": "parchment"
+  },
+  "ਫਕੀਰ": {
+    "normalized": "ਫਕੀਰ",
+    "legacy_ascii": "PkIr"
+  },
+  "ਫਘ": {
+    "normalized": "ਫਘ",
+    "legacy_ascii": "PG"
+  },
+  "ਫਘ੦੦੩": {
+    "normalized": "ਫਘ੦੦੩",
+    "legacy_ascii": "PG003"
+  },
+  "ਫਰੋਜੲਚਟ": {
+    "normalized": "ਫਰੋਜੲਚਟ",
+    "legacy_ascii": "Project"
+  },
+  "ਫਰੋਟੲਚਟੋਰਸ": {
+    "normalized": "ਫਰੋਟੲਚਟੋਰਸ",
+    "legacy_ascii": "Protectors"
+  },
+  "ਫਸੇਚਹੋਲੋਗੇ": {
+    "normalized": "ਫਸੇਚਹੋਲੋਗੇ",
+    "legacy_ascii": "Psychology"
+  },
+  "ਫਾਲ": {
+    "normalized": "ਫਾਲ",
+    "legacy_ascii": "Pwl"
+  },
+  "ਫੁੱਫੜ": {
+    "normalized": "ਫੁੱਫੜ",
+    "legacy_ascii": "Pu`PV"
+  },
+  "ਫੋਨਿਟ": {
+    "normalized": "ਫੋਨਿਟ",
+    "legacy_ascii": "Point"
+  },
+  "ਫੲਰਸੋਨੳਲ": {
+    "normalized": "ਫੲਰਸੋਨੳਲ",
+    "legacy_ascii": "Personal"
+  },
+  "ਬਗਾਵਤ": {
+    "normalized": "ਬਗਾਵਤ",
+    "legacy_ascii": "bgwvq"
+  },
+  "ਬਚਿਆ": {
+    "normalized": "ਬਚਿਆ",
+    "legacy_ascii": "bicAw"
+  },
+  "ਬੰਦਾ": {
+    "normalized": "ਬੰਦਾ",
+    "legacy_ascii": "bMdw"
+  },
+  "ਭਰੲੳਕਦੋਾਨ": {
+    "normalized": "ਭਰੲੳਕਦੋਾਨ",
+    "legacy_ascii": "Breakdown"
+  },
+  "ਭਾਸ਼ਾ": {
+    "normalized": "ਭਾਸ਼ਾ",
+    "legacy_ascii": "BwSw"
+  },
+  "ਭੋਰਰੋਾੲਦ": {
+    "normalized": "ਭੋਰਰੋਾੲਦ",
+    "legacy_ascii": "Borrowed"
+  },
+  "ਭੳਚਕਗਰੋੁਨਦ": {
+    "normalized": "ਭੳਚਕਗਰੋੁਨਦ",
+    "legacy_ascii": "Background"
+  },
+  "ਮਨੋਵਿਗਿਆਨਕ": {
+    "normalized": "ਮਨੋਵਿਗਿਆਨਕ",
+    "legacy_ascii": "mnoivigAwnk"
+  },
+  "ਮਪ੩": {
+    "normalized": "ਮਪ੩",
+    "legacy_ascii": "mp3"
+  },
+  "ਮਪ੩ੱ": {
+    "normalized": "ਮਪ੩ੱ",
+    "legacy_ascii": "mp3~"
+  },
+  "ਮਰ": {
+    "normalized": "ਮਰ",
+    "legacy_ascii": "mr"
+  },
+  "ਮਾਮਾ": {
+    "normalized": "ਮਾਮਾ",
+    "legacy_ascii": "mwmw"
+  },
+  "ਮੇਰੀ": {
+    "normalized": "ਮੇਰੀ",
+    "legacy_ascii": "myrI"
+  },
+  "ਮੋਦੲਰਨ": {
+    "normalized": "ਮੋਦੲਰਨ",
+    "legacy_ascii": "modern"
+  },
+  "ਮੲਟੳਪਹੋਰ": {
+    "normalized": "ਮੲਟੳਪਹੋਰ",
+    "legacy_ascii": "metaphor"
+  },
+  "ਮੳਨੁਸਚਰਪਿਟਸ": {
+    "normalized": "ਮੳਨੁਸਚਰਪਿਟਸ",
+    "legacy_ascii": "manuscripts"
+  },
+  "ਯੋਧੇ": {
+    "normalized": "ਯੋਧੇ",
+    "legacy_ascii": "XoDy"
+  },
+  "ਰਹਿਣਾ": {
+    "normalized": "ਰਹਿਣਾ",
+    "legacy_ascii": "rihxw"
+  },
+  "ਰਹੀ": {
+    "normalized": "ਰਹੀ",
+    "legacy_ascii": "rhI"
+  },
+  "ਰਹੇ": {
+    "normalized": "ਰਹੇ",
+    "legacy_ascii": "rhy"
+  },
+  "ਰਹੇਗਾ": {
+    "normalized": "ਰਹੇਗਾ",
+    "legacy_ascii": "rhygw"
+  },
+  "ਰੁਜ਼ਗਾਰ": {
+    "normalized": "ਰੁਜ਼ਗਾਰ",
+    "legacy_ascii": "ruzgwr"
+  },
+  "ਰੲਪਲੳਚੲਮੲਨਟਸ": {
+    "normalized": "ਰੲਪਲੳਚੲਮੲਨਟਸ",
+    "legacy_ascii": "replacements"
+  },
+  "ਰੲਮੳਨਿ": {
+    "normalized": "ਰੲਮੳਨਿ",
+    "legacy_ascii": "remain"
+  },
+  "ਲੀਵਜ਼": {
+    "normalized": "ਲੀਵਜ਼",
+    "legacy_ascii": "lIvz"
+  },
+  "ਲੋਕ": {
+    "normalized": "ਲੋਕ",
+    "legacy_ascii": "lok"
+  },
+  "ਲੋਸਟ": {
+    "normalized": "ਲੋਸਟ",
+    "legacy_ascii": "lost"
+  },
+  "ਲੲਡਟ": {
+    "normalized": "ਲੲਡਟ",
+    "legacy_ascii": "left"
+  },
+  "ਲ਼ਡਿੲ": {
+    "normalized": "ਲ਼ਡਿੲ",
+    "legacy_ascii": "Life"
+  },
+  "ਲ਼ੋਸਸ": {
+    "normalized": "ਲ਼ੋਸਸ",
+    "legacy_ascii": "Loss"
+  },
+  "ਲ਼ੳਨਗੁੳਗੲ": {
+    "normalized": "ਲ਼ੳਨਗੁੳਗੲ",
+    "legacy_ascii": "Language"
+  },
+  "ਲ਼ੳਬੋਰੳਟੋਰੇਞ੦੪": {
+    "normalized": "ਲ਼ੳਬੋਰੳਟੋਰੇਞ੦੪",
+    "legacy_ascii": "Laboratory\\04"
+  },
+  "ਵਸ": {
+    "normalized": "ਵਸ",
+    "legacy_ascii": "vs"
+  },
+  "ਵਿਰਾਸਤ": {
+    "normalized": "ਵਿਰਾਸਤ",
+    "legacy_ascii": "ivrwsq"
+  },
+  "ਵੀ": {
+    "normalized": "ਵੀ",
+    "legacy_ascii": "vI"
+  },
+  "ਸ਼ਕੲਲੲਟੋਨ": {
+    "normalized": "ਸ਼ਕੲਲੲਟੋਨ",
+    "legacy_ascii": "Skeleton"
+  },
+  "ਸ਼ਚਰਪਿਟ": {
+    "normalized": "ਸ਼ਚਰਪਿਟ",
+    "legacy_ascii": "Script"
+  },
+  "ਸ਼ਟਰੁਚਟੁਰੳਲ": {
+    "normalized": "ਸ਼ਟਰੁਚਟੁਰੳਲ",
+    "legacy_ascii": "Structural"
+  },
+  "ਸ਼ਟਰੳਟੲਗੇ": {
+    "normalized": "ਸ਼ਟਰੳਟੲਗੇ",
+    "legacy_ascii": "Strategy"
+  },
+  "ਸ਼ਟੁਦਿੋਞ੦੧": {
+    "normalized": "ਸ਼ਟੁਦਿੋਞ੦੧",
+    "legacy_ascii": "Stuido\\01"
+  },
+  "ਸ਼ਟੲਪ": {
+    "normalized": "ਸ਼ਟੲਪ",
+    "legacy_ascii": "Step"
+  },
+  "ਸ਼ਟੳਟੁਸ": {
+    "normalized": "ਸ਼ਟੳਟੁਸ",
+    "legacy_ascii": "Status"
+  },
+  "ਸ਼ਨਿਕਨਿਗ": {
+    "normalized": "ਸ਼ਨਿਕਨਿਗ",
+    "legacy_ascii": "Sinking"
+  },
+  "ਸ਼ਬਦ": {
+    "normalized": "ਸ਼ਬਦ",
+    "legacy_ascii": "Sbd"
+  },
+  "ਸ਼ਹਪਿ": {
+    "normalized": "ਸ਼ਹਪਿ",
+    "legacy_ascii": "Ship"
+  },
+  "ਸ਼ਹੲਦਦਨਿਗ": {
+    "normalized": "ਸ਼ਹੲਦਦਨਿਗ",
+    "legacy_ascii": "Shedding"
+  },
+  "ਸ਼ਾਇਰ": {
+    "normalized": "ਸ਼ਾਇਰ",
+    "legacy_ascii": "Swier"
+  },
+  "ਸ਼ੁਰਵਵਿੳਲ": {
+    "normalized": "ਸ਼ੁਰਵਵਿੳਲ",
+    "legacy_ascii": "Survival"
+  },
+  "ਸ਼ੇਸਟੲਮਚਿ": {
+    "normalized": "ਸ਼ੇਸਟੲਮਚਿ",
+    "legacy_ascii": "Systemic"
+  },
+  "ਸ਼ੋਚੳਿਲ": {
+    "normalized": "ਸ਼ੋਚੳਿਲ",
+    "legacy_ascii": "Socail"
+  },
+  "ਸ਼ੋੁਲ": {
+    "normalized": "ਸ਼ੋੁਲ",
+    "legacy_ascii": "Soul"
+  },
+  "ਸ਼੧ੱ": {
+    "normalized": "ਸ਼੧ੱ",
+    "legacy_ascii": "S1~"
+  },
+  "ਸ਼੨ੱ": {
+    "normalized": "ਸ਼੨ੱ",
+    "legacy_ascii": "S2~"
+  },
+  "ਸ਼੩ੱ": {
+    "normalized": "ਸ਼੩ੱ",
+    "legacy_ascii": "S3~"
+  },
+  "ਸ਼੪ੱ": {
+    "normalized": "ਸ਼੪ੱ",
+    "legacy_ascii": "S4~"
+  },
+  "ਸ਼ੲਤੁੲਨਚੲ": {
+    "normalized": "ਸ਼ੲਤੁੲਨਚੲ",
+    "legacy_ascii": "Sequence"
+  },
+  "ਸ਼ੲਵੲਰੲਦ": {
+    "normalized": "ਸ਼ੲਵੲਰੲਦ",
+    "legacy_ascii": "Severed"
+  },
+  "ਸ਼ੲੲਦ": {
+    "normalized": "ਸ਼ੲੲਦ",
+    "legacy_ascii": "Seed"
+  },
+  "ਸ਼ੲੳਲ": {
+    "normalized": "ਸ਼ੲੳਲ",
+    "legacy_ascii": "Seal"
+  },
+  "ਸਮਾਜਿਕ": {
+    "normalized": "ਸਮਾਜਿਕ",
+    "legacy_ascii": "smwijk"
+  },
+  "ਸਾਰੇ": {
+    "normalized": "ਸਾਰੇ",
+    "legacy_ascii": "swry"
+  },
+  "ਸਿ": {
+    "normalized": "ਸਿ",
+    "legacy_ascii": "is"
+  },
+  "ਸਿੱਖਿਆ": {
+    "normalized": "ਸਿੱਖਿਆ",
+    "legacy_ascii": "is`iKAw"
+  },
+  "ਸੁਪਨੇ": {
+    "normalized": "ਸੁਪਨੇ",
+    "legacy_ascii": "supny"
+  },
+  "ਸੂਫੀ": {
+    "normalized": "ਸੂਫੀ",
+    "legacy_ascii": "sUPI"
+  },
+  "ਸੰਕਟ": {
+    "normalized": "ਸੰਕਟ",
+    "legacy_ascii": "sMkt"
+  },
+  "ਸੰਤ": {
+    "normalized": "ਸੰਤ",
+    "legacy_ascii": "sMq"
+  },
+  "ਸੱਭਿਆਚਾਰਕ": {
+    "normalized": "ਸੱਭਿਆਚਾਰਕ",
+    "legacy_ascii": "s`iBAwcwrk"
+  },
+  "ਹਥਿਆਰ": {
+    "normalized": "ਹਥਿਆਰ",
+    "legacy_ascii": "hiQAwr"
+  },
+  "ਹੁਮੳਨ": {
+    "normalized": "ਹੁਮੳਨ",
+    "legacy_ascii": "human"
+  },
+  "ਹੈ": {
+    "normalized": "ਹੈ",
+    "legacy_ascii": "hY"
+  },
+  "ਹੋ": {
+    "normalized": "ਹੋ",
+    "legacy_ascii": "ho"
+  },
+  "ਹੋਰ": {
+    "normalized": "ਹੋਰ",
+    "legacy_ascii": "hor"
+  },
+  "ਹੲ": {
+    "normalized": "ਹੲ",
+    "legacy_ascii": "he"
+  },
+  "ਹੳਸ": {
+    "normalized": "ਹੳਸ",
+    "legacy_ascii": "has"
+  },
+  "ਾਂਲਿਲ": {
+    "normalized": "ਾਂਲਿਲ",
+    "legacy_ascii": "Will"
+  },
+  "ਾਂੲੳਪੋਨ": {
+    "normalized": "ਾਂੲੳਪੋਨ",
+    "legacy_ascii": "Weapon"
+  },
+  "ਿਘੁਡਟੳਰ": {
+    "normalized": "ਿਘੁਡਟੳਰ",
+    "legacy_ascii": "iGuftar"
+  },
+  "ੀ": {
+    "normalized": "ੀ",
+    "legacy_ascii": "I"
+  },
+  "ੀਦੲਨਟਟਿੇ": {
+    "normalized": "ੀਦੲਨਟਟਿੇ",
+    "legacy_ascii": "Identity"
+  },
+  "ੀਧ": {
+    "normalized": "ੀਧ",
+    "legacy_ascii": "ID"
+  },
+  "ੀਨਟਮਿੳਚੇ": {
+    "normalized": "ੀਨਟਮਿੳਚੇ",
+    "legacy_ascii": "Intimacy"
+  },
+  "ੀੀ": {
+    "normalized": "ੀੀ",
+    "legacy_ascii": "II"
+  },
+  "ੀੀੀ": {
+    "normalized": "ੀੀੀ",
+    "legacy_ascii": "III"
+  },
+  "ੀੜ": {
+    "normalized": "ੀੜ",
+    "legacy_ascii": "IV"
+  },
+  "ੋਡ": {
+    "normalized": "ੋਡ",
+    "legacy_ascii": "of"
+  },
+  "ੋਨਲੇ": {
+    "normalized": "ੋਨਲੇ",
+    "legacy_ascii": "only"
+  },
+  "ੋਾਂਰਕਸਪੳਚੲਞ੦੩": {
+    "normalized": "ੋਾਂਰਕਸਪੳਚੲਞ੦੩",
+    "legacy_ascii": "oWrkspace\\03"
+  },
+  "ੋਾਂਰਕਸਪੳਚੲਞ੦੪": {
+    "normalized": "ੋਾਂਰਕਸਪੳਚੲਞ੦੪",
+    "legacy_ascii": "oWrkspace\\04"
+  },
+  "ੋਾਂਰਦ": {
+    "normalized": "ੋਾਂਰਦ",
+    "legacy_ascii": "oWrd"
+  },
+  "ੋੰਦੁਲੳਰ": {
+    "normalized": "ੋੰਦੁਲੳਰ",
+    "legacy_ascii": "oMdular"
+  },
+  "ੋੰਦੲ": {
+    "normalized": "ੋੰਦੲ",
+    "legacy_ascii": "oMde"
+  },
+  "ੋੰਵੲਮੲਨਟ": {
+    "normalized": "ੋੰਵੲਮੲਨਟ",
+    "legacy_ascii": "oMvement"
+  },
+  "ੋੰਵੲਮੲਨਟਸ": {
+    "normalized": "ੋੰਵੲਮੲਨਟਸ",
+    "legacy_ascii": "oMvements"
+  },
+  "ੌੁਟਰੋ": {
+    "normalized": "ੌੁਟਰੋ",
+    "legacy_ascii": "Outro"
+  },
+  "੍ਰੋੋਟਸ": {
+    "normalized": "੍ਰੋੋਟਸ",
+    "legacy_ascii": "Roots"
+  },
+  "੍ਰੲਚੋਰਦਨਿਗ": {
+    "normalized": "੍ਰੲਚੋਰਦਨਿਗ",
+    "legacy_ascii": "Recording"
+  },
+  "੍ਰੲਬੲਲਲਿੋਨ": {
+    "normalized": "੍ਰੲਬੲਲਲਿੋਨ",
+    "legacy_ascii": "Rebelilon"
+  },
+  "੍ਰੲਸਪੋਨਸਬਿਲਿਟਿੇ": {
+    "normalized": "੍ਰੲਸਪੋਨਸਬਿਲਿਟਿੇ",
+    "legacy_ascii": "Responsibility"
+  },
+  "੍ਰੲਸਸਿਟੳਨਚੲ": {
+    "normalized": "੍ਰੲਸਸਿਟੳਨਚੲ",
+    "legacy_ascii": "Resistance"
+  },
+  "੍ਰੲਸੁਰਰੲਚਟਿੋਨ": {
+    "normalized": "੍ਰੲਸੁਰਰੲਚਟਿੋਨ",
+    "legacy_ascii": "Resurreciton"
+  },
+  "੍ਰੳਾ": {
+    "normalized": "੍ਰੳਾ",
+    "legacy_ascii": "Raw"
+  },
+  "੍ਹਗਿਹਲਗਿਹਟ": {
+    "normalized": "੍ਹਗਿਹਲਗਿਹਟ",
+    "legacy_ascii": "Highlight"
+  },
+  "੍ਹਸਿਟੋਰਚਿੳਲ": {
+    "normalized": "੍ਹਸਿਟੋਰਚਿੳਲ",
+    "legacy_ascii": "Historical"
+  },
+  "੍ਹੁਮੳਨਟਿੇ": {
+    "normalized": "੍ਹੁਮੳਨਟਿੇ",
+    "legacy_ascii": "Hümanity"
+  },
+  "੍ਹੋਪੲ": {
+    "normalized": "੍ਹੋਪੲ",
+    "legacy_ascii": "Hope"
+  },
+  "੍ਹੋਲਲੋਾ": {
+    "normalized": "੍ਹੋਲਲੋਾ",
+    "legacy_ascii": "Hollow"
+  },
+  "੍ਹੲਰਟਿੳਗੲ": {
+    "normalized": "੍ਹੲਰਟਿੳਗੲ",
+    "legacy_ascii": "Heritage"
+  },
+  "ੜ": {
+    "normalized": "ੜ",
+    "legacy_ascii": "V"
+  },
+  "ੜਸਿੁੳਲ": {
+    "normalized": "ੜਸਿੁੳਲ",
+    "legacy_ascii": "Visual"
+  },
+  "ੜੀ": {
+    "normalized": "ੜੀ",
+    "legacy_ascii": "VI"
+  },
+  "ੜੌ": {
+    "normalized": "ੜੌ",
+    "legacy_ascii": "VO"
+  },
+  "ੜੌਞਫਘ੦੦੩": {
+    "normalized": "ੜੌਞਫਘ੦੦੩",
+    "legacy_ascii": "VO\\PG003"
+  },
+  "ਫ਼": {
+    "normalized": "ਫ਼",
+    "legacy_ascii": "&"
+  },
+  "੦੦": {
+    "normalized": "੦੦",
+    "legacy_ascii": "00"
+  },
+  "੦੦੩": {
+    "normalized": "੦੦੩",
+    "legacy_ascii": "003"
+  },
+  "੦੦੩ੱ": {
+    "normalized": "੦੦੩ੱ",
+    "legacy_ascii": "003~"
+  },
+  "੦੧": {
+    "normalized": "੦੧",
+    "legacy_ascii": "01"
+  },
+  "੦੨": {
+    "normalized": "੦੨",
+    "legacy_ascii": "02"
+  },
+  "੦੩": {
+    "normalized": "੦੩",
+    "legacy_ascii": "03"
+  },
+  "੦੪": {
+    "normalized": "੦੪",
+    "legacy_ascii": "04"
+  },
+  "੦੫": {
+    "normalized": "੦੫",
+    "legacy_ascii": "05"
+  },
+  "੦੬": {
+    "normalized": "੦੬",
+    "legacy_ascii": "06"
+  },
+  "੦੭": {
+    "normalized": "੦੭",
+    "legacy_ascii": "07"
+  },
+  "੦੮": {
+    "normalized": "੦੮",
+    "legacy_ascii": "08"
+  },
+  "੦੯": {
+    "normalized": "੦੯",
+    "legacy_ascii": "09"
+  },
+  "੧": {
+    "normalized": "੧",
+    "legacy_ascii": "1"
+  },
+  "੧੦": {
+    "normalized": "੧੦",
+    "legacy_ascii": "10"
+  },
+  "੧੧": {
+    "normalized": "੧੧",
+    "legacy_ascii": "11"
+  },
+  "੧੨": {
+    "normalized": "੧੨",
+    "legacy_ascii": "12"
+  },
+  "੧੩": {
+    "normalized": "੧੩",
+    "legacy_ascii": "13"
+  },
+  "੧੪": {
+    "normalized": "੧੪",
+    "legacy_ascii": "14"
+  },
+  "੧੫": {
+    "normalized": "੧੫",
+    "legacy_ascii": "15"
+  },
+  "੧੬": {
+    "normalized": "੧੬",
+    "legacy_ascii": "16"
+  },
+  "੧੭": {
+    "normalized": "੧੭",
+    "legacy_ascii": "17"
+  },
+  "੧੮": {
+    "normalized": "੧੮",
+    "legacy_ascii": "18"
+  },
+  "੧੯": {
+    "normalized": "੧੯",
+    "legacy_ascii": "19"
+  },
+  "੨੩": {
+    "normalized": "੨੩",
+    "legacy_ascii": "23"
+  },
+  "੩੦": {
+    "normalized": "੩੦",
+    "legacy_ascii": "30"
+  },
+  "੪੫": {
+    "normalized": "੪੫",
+    "legacy_ascii": "45"
+  },
+  "੬": {
+    "normalized": "੬",
+    "legacy_ascii": "6"
+  },
+  "ੰ੧": {
+    "normalized": "ੰ੧",
+    "legacy_ascii": "M1"
+  },
+  "ੰ੨": {
+    "normalized": "ੰ੨",
+    "legacy_ascii": "M2"
+  },
+  "ੰ੩": {
+    "normalized": "ੰ੩",
+    "legacy_ascii": "M3"
+  },
+  "ੰ੪": {
+    "normalized": "ੰ੪",
+    "legacy_ascii": "M4"
+  },
+  "ੰ੫": {
+    "normalized": "ੰ੫",
+    "legacy_ascii": "M5"
+  },
+  "ੰ੬": {
+    "normalized": "ੰ੬",
+    "legacy_ascii": "M6"
+  },
+  "ੰੲਟੳਪਹੋਰ": {
+    "normalized": "ੰੲਟੳਪਹੋਰ",
+    "legacy_ascii": "Metaphor"
+  },
+  "ੰੲਨਟੳਲ": {
+    "normalized": "ੰੲਨਟੳਲ",
+    "legacy_ascii": "Mental"
+  },
+  "ੰੳਟਰਣਿ": {
+    "normalized": "ੰੳਟਰਣਿ",
+    "legacy_ascii": "Matrix"
+  },
+  "ੰੳਰਕੲਟ": {
+    "normalized": "ੰੳਰਕੲਟ",
+    "legacy_ascii": "Market"
+  },
+  "ੰੳਸਟੲਰ": {
+    "normalized": "ੰੳਸਟੲਰ",
+    "legacy_ascii": "Master"
+  },
+  "ੱਡ": {
+    "normalized": "ੱਡ",
+    "legacy_ascii": "~f"
+  },
+  "ੱਫਘ੦੦੩": {
+    "normalized": "ੱਫਘ੦੦੩",
+    "legacy_ascii": "~PG003"
+  },
+  "ੳ": {
+    "normalized": "ੳ",
+    "legacy_ascii": "a"
+  },
+  "ੳਨਦ": {
+    "normalized": "ੳਨਦ",
+    "legacy_ascii": "and"
+  }
+}

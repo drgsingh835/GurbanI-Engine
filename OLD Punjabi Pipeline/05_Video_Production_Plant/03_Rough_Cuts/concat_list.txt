@@ -1,0 +1,5 @@
+file 'F:/Punjabi_Guftar_Workspace/05_Video_Production_Plant/03_Rough_Cuts/chunk_01.mp4'
+file 'F:/Punjabi_Guftar_Workspace/05_Video_Production_Plant/03_Rough_Cuts/chunk_02.mp4'
+file 'F:/Punjabi_Guftar_Workspace/05_Video_Production_Plant/03_Rough_Cuts/chunk_03.mp4'
+file 'F:/Punjabi_Guftar_Workspace/05_Video_Production_Plant/03_Rough_Cuts/chunk_04.mp4'
+file 'F:/Punjabi_Guftar_Workspace/05_Video_Production_Plant/03_Rough_Cuts/chunk_05.mp4'

@@ -1,0 +1,216 @@
+{
+  "M1": [
+    {
+      "image": "M1/intro.png",
+      "start_time": 0.00
+    },
+    {
+      "image": "M1/mukh_still.png",
+      "start_time": 7.04
+    },
+    {
+      "image": "M1/mukh_0.png",
+      "start_time": 9.76
+    },
+    {
+      "image": "M1/mukh_1.png",
+      "start_time": 10.48
+    },
+    {
+      "image": "M1/mukh_2.png",
+      "start_time": 11.12
+    },
+    {
+      "image": "M1/mukh_3.png",
+      "start_time": 11.92
+    },
+    {
+      "image": "M1/mukh_4.png",
+      "start_time": 12.64
+    },
+    {
+      "image": "M1/kavarg_still.png",
+      "start_time": 14.44
+    },
+    {
+      "image": "M1/kavarg_0.png",
+      "start_time": 17.12
+    },
+    {
+      "image": "M1/kavarg_1.png",
+      "start_time": 17.92
+    },
+    {
+      "image": "M1/kavarg_2.png",
+      "start_time": 18.72
+    },
+    {
+      "image": "M1/kavarg_3.png",
+      "start_time": 19.52
+    },
+    {
+      "image": "M1/kavarg_4.png",
+      "start_time": 20.53
+    },
+    {
+      "image": "M1/anatomy.png",
+      "start_time": 20.54
+    }
+  ],
+  "M2": [
+    {
+      "image": "M2/chavarg_still.png",
+      "start_time": 0.00
+    },
+    {
+      "image": "M2/chavarg_0.png",
+      "start_time": 5.88
+    },
+    {
+      "image": "M2/chavarg_1.png",
+      "start_time": 6.76
+    },
+    {
+      "image": "M2/chavarg_2.png",
+      "start_time": 7.64
+    },
+    {
+      "image": "M2/chavarg_3.png",
+      "start_time": 8.56
+    },
+    {
+      "image": "M2/chavarg_4.png",
+      "start_time": 9.36
+    },
+    {
+      "image": "M2/tavarg_r_still.png",
+      "start_time": 10.46
+    },
+    {
+      "image": "M2/tavarg_r_0.png",
+      "start_time": 13.64
+    },
+    {
+      "image": "M2/tavarg_r_1.png",
+      "start_time": 14.44
+    },
+    {
+      "image": "M2/tavarg_r_2.png",
+      "start_time": 16.84
+    },
+    {
+      "image": "M2/tavarg_r_3.png",
+      "start_time": 16.84
+    },
+    {
+      "image": "M2/tavarg_r_4.png",
+      "start_time": 17.84
+    },
+    {
+      "image": "M2/tavarg_d_still.png",
+      "start_time": 17.85
+    },
+    {
+      "image": "M2/tavarg_d_0.png",
+      "start_time": 22.24
+    },
+    {
+      "image": "M2/tavarg_d_1.png",
+      "start_time": 23.66
+    },
+    {
+      "image": "M2/tavarg_d_2.png",
+      "start_time": 22.46
+    },
+    {
+      "image": "M2/tavarg_d_3.png",
+      "start_time": 23.26
+    },
+    {
+      "image": "M2/tavarg_d_4.png",
+      "start_time": 24.06
+    }
+  ],
+  "M3": [
+    {
+      "image": "M3/pavarg_still.png",
+      "start_time": 0.00
+    },
+    {
+      "image": "M3/pavarg_0.png",
+      "start_time": 5.77
+    },
+    {
+      "image": "M3/pavarg_1.png",
+      "start_time": 6.57
+    },
+    {
+      "image": "M3/pavarg_2.png",
+      "start_time": 7.37
+    },
+    {
+      "image": "M3/pavarg_3.png",
+      "start_time": 8.17
+    },
+    {
+      "image": "M3/pavarg_4.png",
+      "start_time": 8.97
+    },
+    {
+      "image": "M3/antam_still.png",
+      "start_time": 9.77
+    },
+    {
+      "image": "M3/antam_0.png",
+      "start_time": 11.27
+    },
+    {
+      "image": "M3/antam_1.png",
+      "start_time": 12.07
+    },
+    {
+      "image": "M3/antam_2.png",
+      "start_time": 12.87
+    },
+    {
+      "image": "M3/antam_3.png",
+      "start_time": 13.67
+    },
+    {
+      "image": "M3/antam_4.png",
+      "start_time": 14.47
+    },
+    {
+      "image": "M3/naveen_still.png",
+      "start_time": 15.27
+    },
+    {
+      "image": "M3/naveen_0.png",
+      "start_time": 17.27
+    },
+    {
+      "image": "M3/naveen_1.png",
+      "start_time": 18.27
+    },
+    {
+      "image": "M3/naveen_2.png",
+      "start_time": 19.27
+    },
+    {
+      "image": "M3/naveen_3.png",
+      "start_time": 20.27
+    },
+    {
+      "image": "M3/naveen_4.png",
+      "start_time": 21.27
+    },
+    {
+      "image": "M3/naveen_5.png",
+      "start_time": 22.27
+    },
+    {
+      "image": "M3/outro.png",
+      "start_time": 23.27
+    }
+  ]
+}

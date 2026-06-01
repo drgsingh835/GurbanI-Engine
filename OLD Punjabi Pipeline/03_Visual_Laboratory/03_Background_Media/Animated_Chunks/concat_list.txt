@@ -1,0 +1,6 @@
+file 'F:\Punjabi_Guftar_Workspace\00_Standard_Assets\02_Intros\ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ.mp4'
+file 'F:\Punjabi_Guftar_Workspace\03_Visual_Laboratory\03_Background_Media\Animated_Chunks\pg002_sec01.mp4'
+file 'F:\Punjabi_Guftar_Workspace\03_Visual_Laboratory\03_Background_Media\Animated_Chunks\pg002_sec02.mp4'
+file 'F:\Punjabi_Guftar_Workspace\03_Visual_Laboratory\03_Background_Media\Animated_Chunks\pg002_sec03.mp4'
+file 'F:\Punjabi_Guftar_Workspace\03_Visual_Laboratory\03_Background_Media\Animated_Chunks\pg002_sec04.mp4'
+file 'F:\Punjabi_Guftar_Workspace\03_Visual_Laboratory\03_Background_Media\Animated_Chunks\pg002_sec05.mp4'

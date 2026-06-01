@@ -1,0 +1,85 @@
+{
+  "pipeline_name": "Gurbani Creative Pipeline",
+  "version": "1.1.0",
+  "default_model": "gemini-2.5-flash",
+  "input_file": "{workspace_root}/01-inputs/{id}_raw_interpretation.md",
+  "pipeline_flow": [
+    {
+      "step": 1,
+      "agent": "01_scriptwriter",
+      "description": "Distill Gurbani philosophical text into a video script",
+      "input_file": "{workspace_root}/01-inputs/{id}_raw_interpretation.md",
+      "output_file": "{workspace_root}/03-scripts/audio_scripts/{id}_script.md"
+    },
+    {
+      "step": 2,
+      "agent": "02_art_director",
+      "description": "Establish the visual identity, colors, and mood of the script",
+      "input_file": "{workspace_root}/03-scripts/audio_scripts/{id}_script.md",
+      "output_file": "{workspace_root}/03-scripts/visual_cues/{id}_art_direction.md"
+    },
+    {
+      "step": 3,
+      "agent": "03_storyboarder",
+      "description": "Map script blocks to visual shots and overlays",
+      "input_file": "{workspace_root}/03-scripts/audio_scripts/{id}_script.md",
+      "dependencies": ["{workspace_root}/03-scripts/visual_cues/{id}_art_direction.md"],
+      "output_file": "{workspace_root}/03-scripts/visual_cues/{id}_storyboard.md"
+    },
+    {
+      "step": 4,
+      "agent": "04_visual_producer",
+      "description": "Generate optimized prompts and models for each storyboard shot",
+      "input_file": "{workspace_root}/03-scripts/visual_cues/{id}_storyboard.md",
+      "output_file": "{workspace_root}/03-scripts/visual_cues/{id}_generation_prompts.json"
+    },
+    {
+      "step": 5,
+      "agent": "05_voiceover_director",
+      "description": "Formulate vocal tone, pronunciation guide, and speed parameters",
+      "input_file": "{workspace_root}/03-scripts/audio_scripts/{id}_script.md",
+      "output_file": "{workspace_root}/03-scripts/audio_scripts/{id}_voiceover_config.json"
+    },
+    {
+      "step": 6,
+      "agent": "06_assets_producer",
+      "description": "Generate visuals using the prompt specs",
+      "input_file": "{workspace_root}/03-scripts/visual_cues/{id}_generation_prompts.json",
+      "output_dir": "{workspace_root}/04-assets/generated_images/{id}"
+    },
+    {
+      "step": 7,
+      "agent": "07_voiceover_generator",
+      "description": "Generate voiceover audio track from script and vocal specs",
+      "input_file": "{workspace_root}/03-scripts/audio_scripts/{id}_script.md",
+      "dependencies": ["{workspace_root}/03-scripts/audio_scripts/{id}_voiceover_config.json"],
+      "output_file": "{workspace_root}/04-assets/voiceover/{id}_vo_track.mp3"
+    },
+    {
+      "step": 8,
+      "agent": "08_video_assembler",
+      "description": "Map timeline cuts and compile editor assembly recipe",
+      "input_file": "{workspace_root}/03-scripts/visual_cues/{id}_storyboard.md",
+      "dependencies": [
+        "{workspace_root}/04-assets/voiceover/{id}_vo_track.mp3",
+        "{workspace_root}/04-assets/generated_images/{id}"
+      ],
+      "output_file": "{workspace_root}/05-outputs/final_reels/{id}_reel_assembly.json"
+    },
+    {
+      "step": 9,
+      "agent": "09_social_publisher",
+      "description": "Draft social captions, tags, and posting schedule",
+      "input_file": "{workspace_root}/03-scripts/audio_scripts/{id}_script.md",
+      "output_file": "{workspace_root}/05-outputs/final_reels/{id}_publish_metadata.md"
+    },
+    {
+      "step": 10,
+      "agent": "10_content_multiplier",
+      "description": "Repurpose script into Twitter thread, LinkedIn post, and Carousel slides",
+      "input_file": "{workspace_root}/03-scripts/audio_scripts/{id}_script.md",
+      "dependencies": ["{workspace_root}/05-outputs/final_reels/{id}_publish_metadata.md"],
+      "output_file": "{workspace_root}/05-outputs/final_podcasts/{id}_repurposed_content.md"
+    }
+  ]
+}

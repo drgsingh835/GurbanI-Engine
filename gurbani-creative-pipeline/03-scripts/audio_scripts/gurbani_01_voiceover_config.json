@@ -1,0 +1,19 @@
+{
+  "project": "Pain is the Medicine",
+  "voice_name": "Marcus (Deep, Resonant Spiritual Male)",
+  "settings": {
+    "stability": 0.80,
+    "similarity_boost": 0.90,
+    "style_exaggeration": 0.0,
+    "speed": 0.92
+  },
+  "pronunciation_dictionary": {
+    "Guru Nanak": "Goo-roo Naa-nuk",
+    "Shabad": "Shuh-bud",
+    "Kudrat": "Kood-ruth",
+    "Haumai": "How-my",
+    "Hukam": "Hoo-kum",
+    "doer": "doo-er"
+  },
+  "script_marked_ssml": "<speak>We exhaust ourselves trying to construct a life of flawless comfort, <break time=\"0.4s\"/> yet it is this very comfort that silences our soul. <break time=\"0.6s\"/> The moment pain fractures our carefully designed world <break time=\"0.3s\"/> is the exact moment our true awareness begins. <break time=\"1.2s\"/> Let that sink in. <break time=\"1.5s\"/> First, <break time=\"0.2s\"/> we treat pleasure as the ultimate reward, <break time=\"0.3s\"/> but Guru Nanak reveals that unchecked comfort acts as a spiritual sedative, <break time=\"0.4s\"/> numbing our connection to the infinite. <break time=\"0.8s\"/> Then, <break time=\"0.2s\"/> when suffering disrupts our plans, <break time=\"0.3s\"/> we feel abandoned, <break time=\"0.4s\"/> yet this friction is actually the medicine designed to dismantle our exhausting illusion of control. <break time=\"0.8s\"/> Consequently, <break time=\"0.3s\"/> realizing that our personal agency cannot govern the cosmos <break time=\"0.4s\"/> relieves us of the heavy burden of being the doer. <break time=\"1.2s\"/> In this quiet surrender, <break time=\"0.4s\"/> we stop resisting the universe <break time=\"0.3s\"/> and start experiencing its living presence. <break time=\"1.2s\"/> Comment SHABAD below to receive the complete translation <break time=\"0.3s\"/> and start your journey of letting go.</speak>"
+}

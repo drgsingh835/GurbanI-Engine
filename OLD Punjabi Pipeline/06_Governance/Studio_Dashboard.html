@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ਪੰਜਾਬੀ ਗੁਫ਼ਤਾਰ | ਸਟੂਡੀਓ ਡੈਸ਼ਬੋਰਡ</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Noto+Sans+Gurmukhi:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-dark: #0a0c10;
+            --sidebar-bg: #111419;
+            --card-bg: rgba(255, 255, 255, 0.02);
+            --accent-gold: #c5a059;
+            --accent-glow: rgba(197, 160, 89, 0.5);
+            --text-main: #e8e8e8;
+            --text-dim: #949494;
+            --glass-border: rgba(197, 160, 89, 0.2);
+            --success: #27ae60;
+            --warning: #f39c12;
+            --review-bg: rgba(197, 160, 89, 0.05);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            font-family: 'Outfit', 'Noto Sans Gurmukhi', sans-serif;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 300px;
+            background: var(--sidebar-bg);
+            border-right: 1px solid var(--glass-border);
+            padding: 50px 30px;
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            height: 100vh;
+            z-index: 100;
+        }
+
+        .sidebar-brand h1 {
+            font-size: 1.8rem;
+            color: var(--accent-gold);
+            margin-bottom: 10px;
+        }
+
+        .sidebar-brand p {
+            font-size: 1rem;
+            color: var(--text-dim);
+            margin-bottom: 50px;
+        }
+
+        .nav-item {
+            padding: 15px 20px;
+            border-radius: 12px;
+            color: var(--text-main);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 1rem;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-item:hover {
+            background: rgba(197, 160, 89, 0.1);
+            color: var(--accent-gold);
+        }
+
+        .nav-item.active {
+            background: var(--review-bg);
+            border: 1px solid var(--glass-border);
+            color: var(--accent-gold);
+        }
+
+        /* Main Content */
+        .main-content {
+            margin-left: 300px;
+            flex: 1;
+            padding: 50px 80px;
+        }
+
+        /* Review Queue Section */
+        .review-section {
+            background: var(--review-bg);
+            border: 2px solid var(--accent-gold);
+            border-radius: 24px;
+            padding: 40px;
+            margin-bottom: 60px;
+            box-shadow: 0 0 30px rgba(197, 160, 89, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .review-section::before {
+            content: "ਸਮੀਖਿਆ ਲੋੜੀਂਦੀ (Review Needed)";
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent-gold);
+            font-weight: 600;
+        }
+
+        .review-section h2 {
+            font-size: 2rem;
+            color: var(--accent-gold);
+            margin-bottom: 30px;
+        }
+
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .review-item {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--glass-border);
+            border-radius: 16px;
+            padding: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .review-item:hover {
+            background: rgba(255, 255, 255, 0.06);
+            transform: scale(1.02);
+        }
+
+        .review-item h3 {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+
+        /* Project Grid */
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            color: var(--text-dim);
+            border-bottom: 1px solid var(--glass-border);
+            padding-bottom: 15px;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+
+        .project-card {
+            background: var(--card-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .project-card:hover {
+            border-color: var(--accent-gold);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .badge {
+            font-size: 0.75rem;
+            padding: 5px 12px;
+            border-radius: 100px;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .badge.done { background: rgba(39, 174, 96, 0.1); color: var(--success); }
+        .badge.progress { background: rgba(243, 156, 18, 0.1); color: var(--warning); }
+        .badge.idea { background: rgba(148, 148, 148, 0.1); color: var(--text-dim); }
+
+        .project-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 25px;
+            line-height: 1.4;
+        }
+
+        /* Idea Panel */
+        .idea-panel {
+            background: var(--sidebar-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 40px;
+        }
+
+        .idea-input {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 20px;
+            color: white;
+            font-size: 1.1rem;
+            font-family: inherit;
+            margin-bottom: 20px;
+            outline: none;
+        }
+
+        .btn {
+            background: var(--accent-gold);
+            color: black;
+            padding: 15px 30px;
+            border-radius: 12px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px var(--accent-glow);
+        }
+
+        .btn-ghost {
+            background: transparent;
+            color: var(--accent-gold);
+            border: 1px solid var(--accent-gold);
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        /* Animations */
+        @keyframes glow {
+            0% { box-shadow: 0 0 10px rgba(197, 160, 89, 0.1); }
+            50% { box-shadow: 0 0 30px rgba(197, 160, 89, 0.3); }
+            100% { box-shadow: 0 0 10px rgba(197, 160, 89, 0.1); }
+        }
+
+        .glowing { animation: glow 3s infinite ease-in-out; }
+    </style>
+</head>
+
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-brand">
+            <h1>ਪੰਜਾਬੀ ਗੁਫ਼ਤਾਰ</h1>
+            <p>Punjabi Guftar Studio</p>
+        </div>
+
+        <nav>
+            <a href="#" class="nav-item active">🏠 ਮੁੱਖ ਪੰਨਾ (Home)</a>
+            <a href="#" class="nav-item">📜 ਸਕ੍ਰਿਪਟਾਂ (Scripts)</a>
+            <a href="#" class="nav-item">🎙️ ਆਡੀਓ (Audio)</a>
+            <a href="#" class="nav-item">🎨 ਵਿਜ਼ੂਅਲ (Visuals)</a>
+            <a href="#" class="nav-item">📊 ਅੰਕੜੇ (Stats)</a>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <!-- Review Queue -->
+        <section class="review-section glowing">
+            <h2>🔔 ਸਮੀਖਿਆ ਦੀ ਉਡੀਕ (Review Queue)</h2>
+            <div class="review-grid">
+                <div class="review-item">
+                    <h3>ਪੈਂਤੀ ਅੱਖਰ: ਸਕ੍ਰਿਪਟ</h3>
+                    <p style="color: var(--text-dim); font-size: 0.8rem; margin-bottom: 15px;">PG-002: Script Audit</p>
+                    <button class="btn" onclick="openFile('01_Scripts_and_Research/test_02_alphabets.md')">ਸੋਧੋ (Edit)</button>
+                </div>
+                <div class="review-item">
+                    <h3>ਪੈਂਤੀ ਅੱਖਰ: ਰਫ਼ ਕੱਟ</h3>
+                    <p style="color: var(--text-dim); font-size: 0.8rem; margin-bottom: 15px;">PG-002: Rough Cut</p>
+                    <button class="btn" onclick="openDir('05_Final_Deliverables')">ਦੇਖੋ (View)</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pipeline -->
+        <h2 class="section-title">🚀 ਪ੍ਰੋਜੈਕਟ ਸਥਿਤੀ (Pipeline Status)</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <span class="badge done">ਮੁਕੰਮਲ (Done)</span>
+                <h3>ਜਾਣ-ਪਛਾਣ: ਪੰਜਾਬੀ ਗੁਫ਼ਤਾਰ</h3>
+                <button class="btn btn-ghost" onclick="openFile('01_Scripts_and_Research/test_01_intro.md')">ਸਕ੍ਰਿਪਟ ਦੇਖੋ</button>
+            </div>
+            <div class="project-card">
+                <span class="badge progress">ਸਮੀਖਿਆ (Review)</span>
+                <h3>ਪੈਂਤੀ ਅੱਖਰ ਦਾ ਵਿਗਿਆਨ</h3>
+                <button class="btn btn-ghost" onclick="openFile('01_Scripts_and_Research/test_02_alphabets.md')">ਸਕ੍ਰਿਪਟ ਸੋਧੋ</button>
+            </div>
+            <div class="project-card">
+                <span class="badge idea">ਵਿਚਾਰ (Idea)</span>
+                <h3>ਪ੍ਰੋਜੈਕਟ ਡੈਲਟਾ: ਖੋਜ</h3>
+                <button class="btn btn-ghost">ਡਰਾਫਟ ਸ਼ੁਰੂ ਕਰੋ</button>
+            </div>
+        </div>
+
+        <!-- Idea Panel -->
+        <section class="idea-panel">
+            <h2 style="margin-bottom: 20px;">💡 ਨਵਾਂ ਵਿਚਾਰ ਸਾਂਝਾ ਕਰੋ (New Idea)</h2>
+            <textarea class="idea-input" id="ideaInput" placeholder="ਵੀਡੀਓ ਦਾ ਵਿਸ਼ਾ ਇੱਥੇ ਲਿਖੋ..."></textarea>
+            <button class="btn" onclick="submitIdea()">ਵਿਚਾਰ ਭੇਜੋ (Submit Idea)</button>
+        </section>
+
+        <footer style="margin-top: 80px; color: var(--text-dim); text-align: center; font-size: 0.9rem;">
+            &copy; 2026 ਪੰਜਾਬੀ ਗੁਫ਼ਤਾਰ | Academic Production Engine
+        </footer>
+    </main>
+
+    <script>
+        function openFile(path) {
+            alert(`[Instruction for Agent]\nPlease open file: f:/Punjabi_Guftar_Workspace/${path}`);
+        }
+
+        function openDir(path) {
+            alert(`[Instruction for Agent]\nPlease open directory: f:/Punjabi_Guftar_Workspace/${path}`);
+        }
+
+        function submitIdea() {
+            const idea = document.getElementById('ideaInput').value;
+            if(idea) {
+                alert(`[New Idea Submitted]\nTopic: ${idea}\n\nPlease inform the agent to add this to the Idea Inbox.`);
+                document.getElementById('ideaInput').value = '';
+            }
+        }
+    </script>
+</body>
+
+</html>

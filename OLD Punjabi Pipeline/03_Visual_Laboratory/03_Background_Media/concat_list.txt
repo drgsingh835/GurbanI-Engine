@@ -1,0 +1,11 @@
+file 'F:/Punjabi_Guftar_Workspace/03_Visual_Laboratory/03_Background_Media/seq_01_intro.png'
+duration 5
+file 'F:/Punjabi_Guftar_Workspace/03_Visual_Laboratory/03_Background_Media/seq_02_tongue.png'
+duration 5
+file 'F:/Punjabi_Guftar_Workspace/03_Visual_Laboratory/03_Background_Media/seq_03_throat.png'
+duration 5
+file 'F:/Punjabi_Guftar_Workspace/03_Visual_Laboratory/03_Background_Media/seq_04_lips.png'
+duration 5
+file 'F:/Punjabi_Guftar_Workspace/03_Visual_Laboratory/03_Background_Media/seq_05_book.png'
+duration 5
+file 'F:/Punjabi_Guftar_Workspace/03_Visual_Laboratory/03_Background_Media/seq_05_book.png'

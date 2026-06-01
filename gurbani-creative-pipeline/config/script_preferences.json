@@ -1,0 +1,26 @@
+{
+  "initialized": true,
+  "last_updated": "2026-05-31T21:58:00",
+  "preferences": {
+    "script_types": ["educational", "story-narrative"],
+    "tone": "intellectual-analytical",
+    "target_audience": {
+      "age_range": "20s-30s",
+      "knowledge_level": "beginner-intermediate",
+      "interests": ["mindfulness", "philosophy", "meditation"]
+    },
+    "style": {
+      "wording": "descriptive-vivid",
+      "sentence_length": "short-punchy",
+      "use_questions": true,
+      "use_statistics": "light"
+    },
+    "video_length": "short",
+    "hook_style": "paradox-statement",
+    "personality": "thoughtful-measured",
+    "use_humor": false,
+    "storytelling_approach": "moderate",
+    "call_to_action_preference": "direct",
+    "channel_niche": "Gurbani Interpretation & Philosophical Contemplation"
+  }
+}
