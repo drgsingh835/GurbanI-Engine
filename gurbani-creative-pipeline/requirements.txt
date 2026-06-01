@@ -1,0 +1,15 @@
+# Python Dependencies for Gurbani Creative Pipeline
+
+# LLM API requests and Gradio Space interface
+requests>=2.25.0
+
+# Speech synthesis for fallback English voices
+edge-tts>=6.1.0
+
+# Image processing for YouTube thumbnail compilation
+Pillow>=9.0.0
+
+# YouTube Data API upload and auth services
+google-api-python-client>=2.0.0
+google-auth-oauthlib>=0.5.0
+google-auth-httplib2>=0.1.0
