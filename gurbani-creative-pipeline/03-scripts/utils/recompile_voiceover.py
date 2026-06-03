@@ -118,7 +118,7 @@ def main():
             
     # 3. Render video reel using render_reel.py
     print("\n[*] Compiling final vertical reel using render_reel.py...")
-    render_cmd = ["py", os.path.join(WORKSPACE_DIR, "render_reel.py"), "--id", "gurbani_pa_01"]
+    render_cmd = ["py", os.path.join(WORKSPACE_DIR, "render_reel.py"), "--id", "gurbani_pa_01", "--no-captions"]
     if run_cmd(render_cmd):
         print("[+] Video compilation succeeded!")
     else:

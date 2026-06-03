@@ -71,7 +71,7 @@ def run_cmd(cmd):
         return False
     return True
 
-def compile_shot(shot, item_id, temp_dir, calibrate=False):
+def compile_shot(shot, item_id, temp_dir, calibrate=False, no_captions=False):
     shot_num = shot["shot_number"]
     shot_type = shot["type"]
     duration = shot["duration"]
@@ -109,7 +109,7 @@ def compile_shot(shot, item_id, temp_dir, calibrate=False):
         ]
         
         overlay_text = shot.get("overlay_text")
-        if overlay_text:
+        if overlay_text and not no_captions:
             text_escaped, active_font = process_text_for_ffmpeg(overlay_text)
             # drawtext filter with basic word wrapping or styling
             text_filter = (
@@ -189,6 +189,7 @@ def main():
     parser.add_argument("--no-intro", action="store_true", help="Disable prepending the intro video clip")
     parser.add_argument("--outro", default=os.path.join(WORKSPACE_DIR, "04-assets", "standard_assets", "03_Outros", "PG002_SEC05_OUTRO.mp4.mp4"), help="Path to outro video clip")
     parser.add_argument("--no-outro", action="store_true", help="Disable appending the outro video clip")
+    parser.add_argument("--no-captions", action="store_true", help="Disable burning hard captions/subtitles onto the image shots")
     args = parser.parse_args()
     
     assembly_file = os.path.normpath(os.path.join(WORKSPACE_DIR, "05-outputs", "final_reels", f"{args.id}_reel_assembly.json"))
@@ -238,7 +239,7 @@ def main():
     clips = []
     
     for shot in assembly.get("timeline", []):
-        clip = compile_shot(shot, args.id, temp_dir, calibrate=args.calibrate)
+        clip = compile_shot(shot, args.id, temp_dir, calibrate=args.calibrate, no_captions=args.no_captions)
         if clip:
             clips.append(clip)
         else:

@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [1.1.0] - 2026-06-04
+
+### Added
+* **No-Captions Compilation**: Added the `--no-captions` CLI parameter to `render_reel.py` to allow compiling videos without burning hard subtitles onto image shots.
+* **Integrated Voiceover Compilation**: Passed `--no-captions` option during `recompile_voiceover.py` video assembly executions.
+
+### Fixed
+* **Windows Git Hook Launcher**: Modified the git pre-commit hook installer in `changelog_enforcer.py` to use the standard `py` launcher instead of `python` for correct execution on Windows systems.
+
 ## [1.0.0] - 2026-06-01
 
 ### Added

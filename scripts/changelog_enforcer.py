@@ -37,7 +37,7 @@ def install_hook():
 # Changelog Enforcer Git Hook
 # Automatically installed by scripts/changelog_enforcer.py
 
-python scripts/changelog_enforcer.py
+py scripts/changelog_enforcer.py
 """
     
     with open(pre_commit_hook, 'w', newline='\n') as f:
